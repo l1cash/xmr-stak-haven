@@ -552,9 +552,9 @@ void executor::ex_main()
 	{
 	case cryptonight_heavy:
 		if(dev_tls)
-			pools.emplace_front(0, "142.44.241.17:7788", "hvxy4BEdswaL1yVTra6Q96VRTiR2MtGXXhsHmfWazSopcAYLmVXbRMuNmmqDPq7G15errZ7zatRPXJpyf2gANoek31spC85fbS", "", "", 0.0, false, false, "", false);
+			pools.emplace_front(0, "142.44.241.17:7777", "hvxy4BEdswaL1yVTra6Q96VRTiR2MtGXXhsHmfWazSopcAYLmVXbRMuNmmqDPq7G15errZ7zatRPXJpyf2gANoek31spC85fbS", "", "", 0.0, true, false, "", false);
 		else
-			pools.emplace_front(0, "142.44.241.17:7788", "hvxy4BEdswaL1yVTra6Q96VRTiR2MtGXXhsHmfWazSopcAYLmVXbRMuNmmqDPq7G15errZ7zatRPXJpyf2gANoek31spC85fbS", "", "", 0.0, false, false, "", false);
+			pools.emplace_front(0, "142.44.241.17:7777", "hvxy4BEdswaL1yVTra6Q96VRTiR2MtGXXhsHmfWazSopcAYLmVXbRMuNmmqDPq7G15errZ7zatRPXJpyf2gANoek31spC85fbS", "", "", 0.0, true, false, "", false);
 		break;
 
 	case cryptonight_monero:
